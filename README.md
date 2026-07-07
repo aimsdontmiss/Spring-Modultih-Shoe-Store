@@ -173,6 +173,48 @@ The main goals of this project are:
 
 ---
 
+## Database Design Approach
+
+The database schema for ShlopApp is designed and maintained manually rather than being generated automatically by Hibernate.
+
+Tables, constraints, indexes, and relationships are created explicitly to maintain control over the persistence model and to better understand the relationship between domain concepts and database structures.
+
+This approach allows the project to:
+
+* Keep the database schema intentional and predictable
+* Separate domain modeling decisions from persistence concerns
+* Understand how aggregates map to relational structures
+* Control primary keys, foreign keys, and constraints directly
+* Avoid relying on automatic schema generation during development
+
+The application uses JPA/Hibernate only as a persistence mapping layer. Domain models are not designed around database tables; instead, persistence entities act as adapters between the domain and relational database.
+
+Example flow:
+
+```
+Domain Model
+     |
+     |  Mapper
+     ↓
+Persistence Entity
+     |
+     |  JPA/Hibernate
+     ↓
+Relational Database
+```
+
+Database objects such as tables, identifiers, and relationships are created intentionally to match the requirements of each bounded context.
+
+Current database modeling includes:
+
+* Catalog tables for products and variants
+* Cart tables for carts and cart items
+* Explicit primary key definitions
+* Controlled relationships between entities
+* Manually defined constraints for data integrity
+
+---
+
 ## Running Locally
 
 ### Requirements
