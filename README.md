@@ -228,7 +228,7 @@ Current database modeling includes:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/ShlopApp.git
+git clone https://github.com/aimsdontmiss/ShlopApp.git
 
 cd ShlopApp
 ```
