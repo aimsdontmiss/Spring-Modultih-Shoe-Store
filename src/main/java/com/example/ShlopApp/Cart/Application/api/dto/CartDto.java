@@ -10,7 +10,7 @@ import java.util.UUID;
 public record CartDto(
     UUID cartId,
     String ownerId,
-    List<CartItem> items,
+    List<CartItemDto> items,
     BigDecimal totalPrice,
     Instant createdAt,
     Instant updatedAt

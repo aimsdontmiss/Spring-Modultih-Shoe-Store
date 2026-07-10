@@ -2,35 +2,18 @@ package com.example.ShlopApp.Cart.Infrastructure.persistence;
 
 import com.example.ShlopApp.Cart.Domain.model.Cart;
 import com.example.ShlopApp.Cart.Domain.model.CartItem;
+import com.example.ShlopApp.Cart.Domain.model.ValueObjects.SessionOwner;
 import com.example.ShlopApp.Cart.Domain.model.ValueObjects.CartId;
 import com.example.ShlopApp.Cart.Domain.model.ValueObjects.CartItemId;
-import com.example.ShlopApp.Cart.Domain.model.ValueObjects.OwnerId;
 import org.springframework.stereotype.Component;
 
 @Component
 public class CartPersistenceMapper {
 
     //  For the Cart Entity...
-//    public void updateCartEntity(Cart cart, CartEntity entity) {
-//
-//        entity.setOwner(cart.getOwnerId().ownerId());
-//        entity.setUpdatedAt(cart.getUpdatedAt());
-//
-//        entity.getItems().clear();
-//
-//        cart.getItems()
-//                .stream()
-//                .map(this::createCartItemEntity)
-//                .forEach(item -> {
-//                    item.setCart(entity);
-//                    entity.getItems().add(item);
-//                });
-//    }
-
-
     public void updateCartEntity(Cart cart, CartEntity entity) {
 
-        entity.setOwner(cart.getOwnerId().ownerId());
+        entity.setOwner(cart.getOwnerId().getOwnerId());
         entity.setUpdatedAt(cart.getUpdatedAt());
 
 
@@ -58,7 +41,7 @@ public class CartPersistenceMapper {
     public CartEntity createCartEntity(Cart cart) {
         CartEntity entity = new CartEntity(
                 cart.getCartId().cartId(),
-                cart.getOwnerId().ownerId()
+                cart.getOwnerId().getOwnerId()
         );
 
         cart.getItems().stream()
@@ -77,31 +60,22 @@ public class CartPersistenceMapper {
     public Cart createCart(CartEntity entity) {
         return new Cart(
                 CartId.of(entity.getCartId()),
-                OwnerId.of(entity.getOwner()),
+                new SessionOwner(entity.getOwner()),
                 entity.getItems().stream().map(this::createCartItem).toList(),
                 entity.getCreatedAt(),
                 entity.getUpdatedAt()
         );
     }
 
+
     //  For the Cart Item Entity...
-    public CartItemEntity updateCartItemEntity(CartItemEntity entity, CartItem item) {
+    public void updateCartItemEntity(CartItemEntity entity, CartItem item) {
 
         entity.setVariantId(item.getVariantId());
         entity.setUnitPrice(item.getUnitPrice());
         entity.setQuantity(item.getQuantity());
 
-        return entity;
     }
-
-//    public CartItemEntity createCartItemEntity(CartItem item) {
-//        return new CartItemEntity(
-//                item.getVariantId(),
-//                item.getUnitPrice(),
-//                item.getQuantity()
-//        );
-//
-//    }
 
     public CartItemEntity createCartItemEntity(CartItem item) {
 

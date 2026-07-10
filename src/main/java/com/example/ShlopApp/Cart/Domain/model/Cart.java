@@ -1,11 +1,10 @@
 package com.example.ShlopApp.Cart.Domain.model;
 
 import com.example.ShlopApp.Cart.Domain.model.ValueObjects.CartId;
-import com.example.ShlopApp.Cart.Domain.model.ValueObjects.OwnerId;
+import com.example.ShlopApp.Cart.Domain.model.ValueObjects.CartOwner;
 import lombok.Getter;
 
 import java.math.BigDecimal;
-import java.sql.Time;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,14 +13,14 @@ import java.util.UUID;
 @Getter
 public class Cart {
     private CartId cartId;
-    private OwnerId ownerId;
+    private CartOwner ownerId;
     private List<CartItem> items;
     public final Instant createdAt;
     public  Instant updatedAt;
 
     public Cart(
             CartId cartId,
-            OwnerId ownerId,
+            CartOwner ownerId,
             List<CartItem> items,
             Instant createdAt,
             Instant updatedAt
@@ -40,35 +39,6 @@ public class Cart {
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
     }
 
-//    public void addToCart(CartItem item) {
-//        // We initially ensure that the item is not already in the cart //
-//        for (CartItem cartItem : items) {
-//            // If the item is already in the cart, we increase its quantity by the new quantity //
-//            if (cartItem.getVariantId().equals(item.getVariantId())) {
-//                cartItem.increaseQuantity(item.getQuantity());
-//                this.touch();
-//                return;
-//            }
-//        }
-//
-//        // If the item is not in the cart, we add it to the cart //
-//        items.add(item);
-//        this.touch();
-//    }
-
-//    public void addToCart(CartItem item) {
-//
-//        items.stream()
-//                .filter(i -> i.getVariantId().equals(item.getVariantId()))
-//                .findFirst()
-//                .ifPresentOrElse(
-//                        existing -> existing.increaseQuantity(item.getQuantity()),
-//                        () -> items.add(item)
-//                );
-//
-//        touch();
-//    }
-
     public void addToCart(
             UUID variantId,
             BigDecimal unitPrice,
@@ -78,7 +48,6 @@ public class Cart {
                 .filter(item -> item.getVariantId().equals(variantId))
                 .findFirst()
                 .orElse(null);
-
 
         if(existing != null){
             existing.increaseQuantity(quantity);
@@ -94,29 +63,50 @@ public class Cart {
         }
     }
 
-    public void removeFromCart(CartItem item) {
-        // We initially ensure that the item is not already in the cart //
-        for (CartItem cartItem : items) {
-            // If the item is already in the cart, we increase its quantity by the new quantity //
-            if (cartItem.getVariantId().equals(item.getVariantId())) {
-                cartItem.decreaseQuantity(item.getQuantity());
+    public void removeFromCart(
+        UUID variantId,
+        BigDecimal unitPrice,
+        int quantity
+    ) throws RuntimeException {
+
+        CartItem existing = items.stream()
+                .filter(item -> item.getVariantId().equals(variantId))
+                .findFirst()
+                .orElse(null);
+
+
+        if (existing == null) {
+            throw new RuntimeException("Item not found");
+        }
+
+        while (quantity > 0 && unitPrice.equals(existing.getUnitPrice())) {
+            try {
+                if (existing.getQuantity() == quantity) {
+                    items.remove(existing);
+                    break;
+                } else if (existing.getQuantity() > quantity) {
+                    existing.decreaseQuantity(quantity);
+                    break;
+                }
+            } catch (Exception e) {
+                throw new RuntimeException("\nError: " + e.getMessage());
             }
         }
 
-        // If the item is not in the cart, we add it to the cart //
-        items.add(item);
-        this.touch();
+        if (items.isEmpty()) {
+            items.remove(existing);
+        }
     }
 
     public void touch() {
         this.updatedAt = Instant.now();
     }
 
-    public void changeOwner(OwnerId ownerId) {
+    public void changeOwner(CartOwner ownerId) {
         this.ownerId = ownerId;
     }
 
-    public static Cart create(OwnerId owner) {
+    public static Cart create(CartOwner owner) {
 
         return new Cart(
                 new CartId(UUID.randomUUID()),
