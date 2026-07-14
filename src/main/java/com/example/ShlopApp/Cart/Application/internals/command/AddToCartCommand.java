@@ -9,7 +9,6 @@ import java.util.UUID;
 
 public record AddToCartCommand(
         UUID cartId,
-        UUID owner,
         UUID variantId,
         BigDecimal unitPrice,
         int quantity

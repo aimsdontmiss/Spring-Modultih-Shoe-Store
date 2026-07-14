@@ -14,11 +14,11 @@ public class CartRepoAdapter implements CartRepoPort {
     private final JpaCartRepository repository;
     private final CartPersistenceMapper mapper = new CartPersistenceMapper();
 
-    public CartRepoAdapter(
-            JpaCartRepository repository
-    ) {
+    public CartRepoAdapter(JpaCartRepository repository) {
         this.repository = repository;
     }
+
+
     @Override
     public void save(Cart cart) {
 
@@ -35,17 +35,6 @@ public class CartRepoAdapter implements CartRepoPort {
         return repository.findByOwner(ownerId)
                 .map(mapper::createCart);
     }
-//
-//    @Override
-//    public Optional<Cart> findById(UUID cartId) {
-//        return Optional.empty();
-//    }
-
-//    @Override
-//    public Optional<Cart> findById(UUID cartId) {
-//        Optional<CartEntity> entity = repository.findById(cartId);
-//        return mapper.createCart(entity);
-//    }
 
     @Override
     public Optional<Cart> findById(UUID cartId) {

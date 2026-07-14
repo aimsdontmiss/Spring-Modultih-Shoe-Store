@@ -4,12 +4,13 @@ import com.example.ShlopApp.Cart.Application.api.dto.CartDto;
 import com.example.ShlopApp.Cart.Application.api.dto.CartResponseMapper;
 import com.example.ShlopApp.Cart.Application.internals.command.AddToCartCommand;
 import com.example.ShlopApp.Cart.Application.internals.command.CreateCartCommand;
+import com.example.ShlopApp.Cart.Application.internals.command.RemoveItemCommand;
 import com.example.ShlopApp.Cart.Application.internals.interactor.AddToCartUseCase;
 import com.example.ShlopApp.Cart.Application.internals.interactor.CreateCartUseCase;
 import com.example.ShlopApp.Cart.Application.internals.interactor.GetCartUseCase;
+import com.example.ShlopApp.Cart.Application.internals.interactor.RemoveFromCartUseCase;
 import com.example.ShlopApp.Cart.Application.internals.query.GetCartQuery;
-import com.example.ShlopApp.Cart.Domain.model.Cart;
-import com.example.ShlopApp.Cart.Domain.model.ValueObjects.OwnerId;
+import com.example.ShlopApp.Cart.Domain.model.ValueObjects.SessionOwner;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -22,37 +23,55 @@ class CartController {
     private final AddToCartUseCase addToCartUseCase;
     private final CreateCartUseCase createCartUseCase;
     private final GetCartUseCase getCartUseCase;
+    private final RemoveFromCartUseCase removeFromCartUseCase;
     
     public CartController(
             AddToCartUseCase addToCartUseCase,
             CreateCartUseCase createCartUseCase,
-            GetCartUseCase getCartUseCase
+            GetCartUseCase getCartUseCase,
+            RemoveFromCartUseCase removeFromCartUseCase
     ) {
         this.addToCartUseCase = addToCartUseCase;
         this.createCartUseCase = createCartUseCase;
-        this.getCartUseCase = getCartUseCase;       
+        this.getCartUseCase = getCartUseCase;
+        this.removeFromCartUseCase = removeFromCartUseCase;
     }
 
-    @GetMapping("/session")
-    public ResponseEntity<String> getSession(HttpSession session) {
-        return ResponseEntity.ok(session.getId());
-    }
 
     @GetMapping("/get")
-    public ResponseEntity<Cart> getCart(@RequestBody GetCartQuery query) {
-        return ResponseEntity.ok(getCartUseCase.execute(query));
+    public ResponseEntity<CartDto> getCart(
+            @RequestBody GetCartQuery query
+    ) {
+        return ResponseEntity.ok(
+                mapper.toCartDto(getCartUseCase.execute(query))
+        );
     }
 
     @PostMapping("/add")
-    public ResponseEntity<Cart> addToCart(@RequestBody AddToCartCommand command) {
-        return ResponseEntity.ok(addToCartUseCase.execute(command));
+    public ResponseEntity<CartDto> addToCart(
+            @RequestBody AddToCartCommand command
+    ) {
+        return ResponseEntity.ok(
+                mapper.toCartDto(addToCartUseCase.execute(command))
+        );
+    }
+
+    @PostMapping("/remove")
+    public ResponseEntity<CartDto> addToCart(
+            @RequestBody RemoveItemCommand command
+    ) {
+        return ResponseEntity.ok(
+                mapper.toCartDto(removeFromCartUseCase.execute(command))
+        );
     }
 
     @PostMapping("/create")
-    public ResponseEntity<CartDto> createCart(HttpSession session) {
+    public ResponseEntity<CartDto> createCart(
+            HttpSession session
+    ) {
         System.out.println("Controller owner = " + session.getId());
 
-        CreateCartCommand command = new CreateCartCommand(OwnerId.of(session.getId()));
+        CreateCartCommand command = new CreateCartCommand(SessionOwner.of(session.getId()));
 
         return ResponseEntity.ok(
                 mapper.toCartDto(createCartUseCase.execute(command))

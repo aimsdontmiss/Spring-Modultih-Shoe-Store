@@ -2,6 +2,12 @@ package com.example.ShlopApp.Cart.Application.internals.command;
 
 import com.example.ShlopApp.Cart.Domain.model.CartItem;
 
+import java.math.BigDecimal;
+import java.util.UUID;
+
 public record RemoveItemCommand(
-        CartItem cartItem
+        UUID cartId,
+        UUID variantId,
+        BigDecimal unitPrice,
+        int quantity
 ) { }

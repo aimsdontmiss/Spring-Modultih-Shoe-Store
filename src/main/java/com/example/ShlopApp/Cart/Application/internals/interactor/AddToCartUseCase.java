@@ -23,58 +23,7 @@ public class AddToCartUseCase {
         this.repository = repository;
     }
 
-//    public Cart execute(AddToCartCommand command) {
-//
-//        Cart cart = repository.findById(command.cartId())
-//                .orElseThrow(() -> new RuntimeException("Cart not found"));
-//
-//        List<CartItem> items = cart.getItems();
-//        for (CartItem item : items) {
-//            if (item.getVariantId().equals(command.variantId())) {
-//                item.increaseQuantity(command.quantity());
-//                repository.save(cart);
-//                return cart;
-//            }
-//        }
-//        cart.addToCart(
-//                CartItem.create(
-//                        command.variantId(),
-//                        command.unitPrice(),
-//                        command.quantity()
-//                )
-//
-//        );
-//
-//        repository.save(cart);
-//        return cart;
-//    }
-
     public Cart execute(AddToCartCommand command) {
-
-//        Cart cart = repository.findById(command.cartId())
-//                .orElseThrow(() -> new RuntimeException("Cart not found"));
-//
-//        if (cart.getItems().contains(command.variantId())) {
-//            cart.getItems().stream()
-//                    .filter(item -> item.getVariantId().equals(command.variantId()))
-//                    .findFirst()
-//                    .ifPresent(item -> item.increaseQuantity(command.quantity()));
-//            repository.save(cart);
-//            return cart;
-//        } else {
-//            cart.addToCart(
-//                    CartItem.create(
-//                            command.variantId(),
-//                            command.unitPrice(),
-//                            command.quantity()
-//                    )
-//            );
-//        }
-//
-//        repository.save(cart);
-//
-//        return cart;
-//    }
 
         Cart cart = repository.findById(command.cartId())
                 .orElseThrow();

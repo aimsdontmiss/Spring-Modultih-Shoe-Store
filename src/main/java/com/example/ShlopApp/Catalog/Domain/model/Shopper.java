@@ -1,10 +1,5 @@
 package com.example.ShlopApp.Catalog.Domain.model;
 
-import com.example.ShlopApp.Cart.Domain.model.CartOwner;
-import org.apache.catalina.User;
-
-import java.util.UUID;
-
 //public class Shopper implements CartOwner {
 //    private final UUID cartId;
 //
