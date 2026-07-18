@@ -28,8 +28,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/java/com/example/ShlopApp" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "aimsdontmiss"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/aimsdontmiss/Spring-Modultih-Shoe-Store.git",
+    "accountId": "f3ce3b19-6055-40c6-b425-721c0aa22595"
+  }
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -72,7 +84,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.ShlopAppApplication.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "V2",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ahmed/Downloads/Spring/ShlopApp/ShlopApp/src/main/java/com/example/ShlopApp/Commerce/Application/internals/Order",
@@ -174,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1784395401356</updated>
       <workItem from="1784395402639" duration="5915000" />
-      <workItem from="1784402028811" duration="10758000" />
+      <workItem from="1784402028811" duration="11424000" />
     </task>
     <servers />
   </component>
