@@ -1,0 +1,14 @@
+{
+  "cartId": "d5adec78-395e-44da-b4e6-c868bc0c0629",
+  "ownerId": "859a7c39-ce76-4c13-a0f5-5c75aea5d17d",
+  "items": [
+    {
+      "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+      "unitPrice": 29.99,
+      "quantity": 4
+    }
+  ],
+  "totalPrice": 119.96,
+  "createdAt": "2026-07-16T00:13:34.079Z",
+  "updatedAt": "2026-07-18T19:44:05.910966600Z"
+}
