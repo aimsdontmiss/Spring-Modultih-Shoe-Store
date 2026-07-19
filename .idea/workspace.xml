@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8a81131-f90c-45bc-a8cc-cf1b4328c0cd" name="Changes" comment="" />
+    <list default="true" id="f8a81131-f90c-45bc-a8cc-cf1b4328c0cd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="138" />
+    <option name="cachedIndexableFilesCount" value="184" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -186,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1784395401356</updated>
       <workItem from="1784395402639" duration="5915000" />
-      <workItem from="1784402028811" duration="11424000" />
+      <workItem from="1784402028811" duration="12821000" />
     </task>
     <servers />
   </component>
