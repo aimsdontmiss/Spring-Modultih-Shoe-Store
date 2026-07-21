@@ -1,5 +1,6 @@
 package com.example.ShlopApp.Commerce.Domain.Order.model;
 
+import com.example.ShlopApp.Commerce.Domain.Order.model.ValueObjects.OwnerId;
 import com.example.ShlopApp.Commerce.Domain.Order.model.ValueObjects.OrderId;
 import com.example.ShlopApp.Commerce.Domain.Order.model.ValueObjects.OrderStatus;
 import lombok.Getter;
@@ -8,29 +9,41 @@ import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 @Getter
 public class Order {
-    private final OrderId orderId;
-    private final UUID customerId;
+    private OrderId orderId;
+    private final OwnerId ownerId;
     private final List<OrderLine> lineItems;
     private OrderStatus status;
     private final Instant createdAt;
 
-
     public Order(
-            OrderId orderId,
-            UUID customerId,
+            OwnerId ownerId,
             List<OrderLine> lineItems,
             OrderStatus orderStatus
     ) {
-        this.orderId = orderId;
-        this.customerId = customerId;
-        this.lineItems = new ArrayList<>();
+        this.ownerId = ownerId;
+        this.lineItems = new ArrayList<>(lineItems);
         this.status = orderStatus;
         this.createdAt = Instant.now();
     }
+
+    // For Domain rehydration from DB Entity
+    public Order(
+            OrderId orderId,
+            OwnerId ownerId,
+            List<OrderLine> lineItems,
+            OrderStatus orderStatus,
+            Instant createdAt
+    ) {
+        this.orderId = orderId;
+        this.ownerId = ownerId;
+        this.lineItems = new ArrayList<>();
+        this.status = orderStatus;
+        this.createdAt = createdAt;
+    }
+
 
     public void changeStatus(OrderStatus status) {
         this.status = status;
@@ -55,15 +68,37 @@ public class Order {
     }
 
 
+
+    public void assignId(OrderId orderId) {
+        if (this.orderId != null) {
+            throw new IllegalStateException("Order already has an ID");
+        }
+
+        this.orderId = orderId;
+    }
+
     public static Order create(
-            UUID customerId, 
+            OwnerId ownerId,
             List<OrderLine> lineItems
     ) {
         return new Order(
-                OrderId.create(),
-                customerId,
+                ownerId,
                 lineItems,
                 OrderStatus.PENDING
         );
     }
+
+    // For debugging purposes
+    @Override
+    public String toString() {
+        return "Order{" +
+                "orderId=" + orderId +
+                ", ownerId=" + ownerId +
+                ", lineItems=" + lineItems +
+                ", status=" + status +
+                ", createdAt=" + createdAt +
+                '}';
+    }
 }
+
+

@@ -2,7 +2,6 @@ package com.example.ShlopApp.Commerce.Infrastructure.persistence;
 
 import com.example.ShlopApp.Commerce.Domain.Order.model.ValueObjects.OrderStatus;
 import jakarta.persistence.*;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -18,7 +17,7 @@ public class OrderEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID orderId;
-    private UUID customerId;
+    private UUID ownerId;
     private String status;
 
     @OneToMany(
@@ -30,9 +29,9 @@ public class OrderEntity {
 
 
     public OrderEntity(
-            UUID customerId
+            UUID ownerId
     ) {
-        this.customerId = customerId;
+        this.ownerId = ownerId;
         this.lineItems = new ArrayList<>();
         this.status = OrderStatus.PENDING.name();
     }
@@ -48,3 +47,5 @@ public class OrderEntity {
     }
 
 }
+
+

@@ -5,7 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8a81131-f90c-45bc-a8cc-cf1b4328c0cd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132425.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132432.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132437.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132444.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132448.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132452.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132455.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132459.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132504.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132510.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132515.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132530.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132533.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154349.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154353.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154355.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154405.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154419.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154426.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154439.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154455.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154501.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154511.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154523.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154700.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154705.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154714.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154932.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154937.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154940.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154944.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T172448.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T172451.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T172548.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T173525.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T173528.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T173606.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T173847.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T173851.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T173929.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/api/CustomerAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/api/CustomerAccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/api/GuestAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/api/GuestAccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/internals/interactor/GetCartUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/internals/interactor/GetCartUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Infrastructure/adapter/SpringSecurityCartOwnerResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Infrastructure/adapter/SpringSecurityCartOwnerResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Application/internals/Order/interactor/CheckoutUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Application/internals/Order/interactor/CheckoutUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Domain/Order/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Domain/Order/model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Infrastructure/persistence/OrderEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Infrastructure/persistence/OrderEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Infrastructure/persistence/OrderPersistenceMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Infrastructure/persistence/OrderPersistenceMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Presentation/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Presentation/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Identity/Application/internals/interactor/IdentityFacadeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Identity/Application/internals/interactor/IdentityFacadeImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,37 +66,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="184" />
+    <option name="cachedIndexableFilesCount" value="204" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="package-info" />
-        <option value="Spring Repository" />
         <option value="Spring REST Controller" />
         <option value="Exception" />
-        <option value="Record" />
+        <option value="Spring Repository" />
+        <option value="package-info" />
         <option value="Class" />
+        <option value="Record" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "aimsdontmiss"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;aimsdontmiss&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aimsdontmiss/Spring-Modultih-Shoe-Store.git",
-    "accountId": "f3ce3b19-6055-40c6-b425-721c0aa22595"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aimsdontmiss/Spring-Modultih-Shoe-Store.git&quot;,
+    &quot;accountId&quot;: &quot;f3ce3b19-6055-40c6-b425-721c0aa22595&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -67,44 +120,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.ShlopAppApplication | #14.executor": "Run",
-    "HTTP Request.ShlopAppApplication | #15.executor": "Run",
-    "HTTP Request.ShlopAppApplication | #2.executor": "Run",
-    "HTTP Request.ShlopAppApplication | #3.executor": "Run",
-    "HTTP Request.ShlopAppApplication | #8.executor": "Run",
-    "JUnit.ModularityTest.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "698",
-    "RequestMappingsPanelWidth1": "697",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.ShlopAppApplication.executor": "Run",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "V2",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ahmed/Downloads/Spring/ShlopApp/ShlopApp/src/main/java/com/example/ShlopApp/Commerce/Application/internals/Order",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.import",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.ShlopAppApplication | #11.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.ShlopAppApplication | #12.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.ShlopAppApplication | #14.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.ShlopAppApplication | #15.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.ShlopAppApplication | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.ShlopAppApplication | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.ShlopAppApplication | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.ShlopAppApplication | #8.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.ShlopAppApplication | #9.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ModularityTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;700&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;699&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ShlopAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ahmed/Downloads/Spring/ShlopApp/ShlopApp/src/main/java/com/example/ShlopApp/Commerce/Application/internals/Order&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "org.Oracle"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;org.Oracle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ahmed\Downloads\Spring\ShlopApp\ShlopApp\src\main\java\com\example\ShlopApp\Commerce\Application\internals\Order" />
@@ -116,21 +174,22 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <map>
-              <entry key="ShlopAppApplication | #14" value="STOPPED" />
-              <entry key="ShlopAppApplication | #15" value="STOPPED" />
+              <entry key="ShlopAppApplication | #11" value="STOPPED" />
+              <entry key="ShlopAppApplication | #12" value="STOPPED" />
               <entry key="ShlopAppApplication | #2" value="STOPPED" />
               <entry key="ShlopAppApplication | #3" value="STOPPED" />
+              <entry key="ShlopAppApplication | #8" value="STOPPED" />
             </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ModularityTest">
-    <configuration name="ShlopAppApplication | #14" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShlopAppApplication.http" executionIdentifier="#14" index="14" runType="Run single request">
+  <component name="RunManager" selected="Spring Boot.ShlopAppApplication">
+    <configuration name="ShlopAppApplication | #11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShlopAppApplication.http" executionIdentifier="#11" index="11" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="ShlopAppApplication | #15" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShlopAppApplication.http" executionIdentifier="#15" index="15" runType="Run single request">
+    <configuration name="ShlopAppApplication | #12" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShlopAppApplication.http" executionIdentifier="#12" index="12" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="ShlopAppApplication | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShlopAppApplication.http" executionIdentifier="#2" index="2" runType="Run single request">
@@ -139,20 +198,8 @@
     <configuration name="ShlopAppApplication | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShlopAppApplication.http" executionIdentifier="#3" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="ModularityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShlopApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ShlopApp.Modules.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ShlopApp.Modules" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ShlopApp.Modules.ModularityTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="ShlopAppApplication | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShlopAppApplication.http" executionIdentifier="#8" index="8" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="ShlopAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -164,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ModularityTest" />
-        <item itemvalue="HTTP Request.ShlopAppApplication | #15" />
+        <item itemvalue="HTTP Request.ShlopAppApplication | #12" />
         <item itemvalue="HTTP Request.ShlopAppApplication | #2" />
-        <item itemvalue="HTTP Request.ShlopAppApplication | #14" />
+        <item itemvalue="HTTP Request.ShlopAppApplication | #11" />
         <item itemvalue="HTTP Request.ShlopAppApplication | #3" />
+        <item itemvalue="HTTP Request.ShlopAppApplication | #8" />
       </list>
     </recent_temporary>
   </component>
@@ -188,11 +235,23 @@
       <option name="presentableId" value="Default" />
       <updated>1784395401356</updated>
       <workItem from="1784395402639" duration="5915000" />
-      <workItem from="1784402028811" duration="12821000" />
+      <workItem from="1784402028811" duration="15702000" />
+      <workItem from="1784490352262" duration="9004000" />
+      <workItem from="1784574010159" duration="12716000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

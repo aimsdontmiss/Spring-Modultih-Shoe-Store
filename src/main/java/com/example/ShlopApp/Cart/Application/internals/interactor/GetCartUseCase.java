@@ -28,10 +28,6 @@ public class GetCartUseCase {
         Cart cart = repository.findById(query.cartId())
                 .orElseThrow(() -> new CartNotFoundException(CartId.of(query.cartId())));
 
-//        if (!cart.belongsTo(owner)) {
-//            throw new UnauthorizedCartAccessException();
-//        }
-
         if (!cart.getOwnerId().getOwnerId()
                 .equals(owner.getOwnerId())) {
             throw new UnauthorizedCartAccessException();

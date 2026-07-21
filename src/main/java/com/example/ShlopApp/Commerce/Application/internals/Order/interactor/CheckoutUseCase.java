@@ -2,10 +2,11 @@ package com.example.ShlopApp.Commerce.Application.internals.Order.interactor;
 
 import com.example.ShlopApp.Cart.Application.api.CartFacade;
 import com.example.ShlopApp.Cart.Application.api.CartSnapshot;
+import com.example.ShlopApp.Cart.Application.api.CustomerAccess;
 import com.example.ShlopApp.Commerce.Application.internals.Order.command.CheckoutCommand;
-import com.example.ShlopApp.Commerce.Domain.Order.exception.UnauthorizedCheckoutException;
 import com.example.ShlopApp.Commerce.Domain.Order.model.Order;
-import com.example.ShlopApp.Commerce.Domain.Order.model.ValueObjects.OrderId;
+import com.example.ShlopApp.Commerce.Domain.Order.model.ValueObjects.OwnerId;
+import com.example.ShlopApp.Commerce.Domain.Order.port.OrderLineRepoPort;
 import com.example.ShlopApp.Commerce.Domain.Order.port.OrderRepoPort;
 import com.example.ShlopApp.Commerce.Infrastructure.persistence.OrderPersistenceMapper;
 import com.example.ShlopApp.Identity.Application.api.AccountInfo;
@@ -19,43 +20,49 @@ import java.util.Optional;
 @Service
 @RequiredArgsConstructor
 public class CheckoutUseCase {
-    private final OrderRepoPort repository;
+    private final OrderRepoPort orderRepo;
+    private final OrderLineRepoPort orderLineRepo;
     private final OrderPersistenceMapper mapper;
     private final CartFacade cartFacade;
     private final IdentityFacade identityFacade;
 
-//    @Transactional
-//    public CartSnapshot execute(CheckoutCommand command) {
-//
-//        Optional<AccountInfo> acc = identityFacade.currentAccount();
-//        if ()
-//        return cartFacade.getCart(command.cartId());
-//
-//    }
-
     @Transactional
-    public OrderId execute(CheckoutCommand command) {
+    public Order execute(CheckoutCommand command) {
 
-        AccountInfo account = identityFacade.currentAccount()
-                .orElseThrow(() ->
-                        new UnauthorizedCheckoutException("User does not own cart")
-                );
+
+        Optional<AccountInfo> account = identityFacade.currentAccount();
 
         CartSnapshot cart = cartFacade.getCart(command.cartId());
 
+        if (cart.owner() instanceof CustomerAccess) {
+            Order order = Order.create(
+                    OwnerId.of((CustomerAccess) cart.owner()),
+                    cart.items()
+                            .stream()
+                            .map(mapper::toOrderLineFromCart)
+                            .toList()
+            );
+
+            cartFacade.clearCart(command.cartId());
+            orderRepo.save(order);
+            return order;
+        }
+
+
+
         Order order = Order.create(
-                account.accountId(),
+                new OwnerId(command.ownerId()),
                 cart.items()
                         .stream()
-                        .map(mapper::toOrderLine)
+                        .map(mapper::toOrderLineFromCart)
                         .toList()
         );
 
-        repository.save(order);
+        System.out.println("ORDER: " + order);
 
         cartFacade.clearCart(command.cartId());
-
-        return order.getOrderId();
+        orderRepo.save(order);
+        return order;
     }
 }
 

@@ -43,7 +43,7 @@ public class SpringSecurityCartOwnerResolver
 //                    (AccountPrincipal) auth.getPrincipal();
 //            System.out.println("PRINCIPAL ACCOUNT_ID: " + principal.getAccountId());
 //
-//            return CustomerOwner.of(principal.getAccountId());
+//            return CustomerOwner.from(principal.getAccountId());
 //        }
 //
 //        System.out.println(
@@ -56,17 +56,17 @@ public class SpringSecurityCartOwnerResolver
 //                        request.getSession().getId()
 //        );
 //
-//        return SessionOwner.of(
+//        return SessionOwner.from(
 //                UUID.fromString(request.getSession().getId())
 //        );
 
 //        Optional<AccountInfo> account = facade.currentAccount();
 //
 //        if (account != null) {
-//            return CustomerOwner.of(account.accountId());
+//            return CustomerOwner.from(account.accountId());
 //        }
 //
-//        return SessionOwner.of(
+//        return SessionOwner.from(
 //                UUID.fromString(request.getSession().getId())
 //        );
 //
@@ -85,8 +85,8 @@ public class SpringSecurityCartOwnerResolver
                 )
                 .orElseGet(() ->
                         SessionOwner.of(
-                                UUID.fromString(
-                                        request.getSession().getId()
+                                UUID.nameUUIDFromBytes(
+                                        request.getSession().getId().getBytes()
                                 )
                         )
                 );

@@ -20,7 +20,7 @@ public class CartResponseMapper {
 //
 //    public Cart toCartDomain(CartDto dto) {
 //        return new Cart(
-//                CartId.of(dto.cartId()),
+//                CartId.from(dto.cartId()),
 //                new SessionOwner(dto.value()),
 //                dto.items(),
 //                dto.createdAt(),
@@ -41,7 +41,7 @@ public class CartResponseMapper {
 //
 //    public CartItem toCartItemDomain(CartItemDto dto) {
 //        return new CartItem(
-//                CartItemId.of(dto.cartItemId()),
+//                CartItemId.from(dto.cartItemId()),
 //                dto.variantId(),
 //                dto.unitPrice(),
 //                dto.quantity()

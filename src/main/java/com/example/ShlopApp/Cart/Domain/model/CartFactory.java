@@ -31,10 +31,10 @@ public class CartFactory {
     }
 
 //    // For logged in users
-//    public Cart create(CustomerOwner customerId) {
+//    public Cart create(CustomerOwner ownerId) {
 //        return new Cart(
 //                CartId.create(),
-//                customerId,
+//                ownerId,
 //                new ArrayList<>(),
 //                Instant.now(),
 //                Instant.now()
