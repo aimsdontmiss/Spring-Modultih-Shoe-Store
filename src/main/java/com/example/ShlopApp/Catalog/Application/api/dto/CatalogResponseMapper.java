@@ -1,5 +1,6 @@
 package com.example.ShlopApp.Catalog.Application.api.dto;
 
+import com.example.ShlopApp.Catalog.Application.api.VariantDto;
 import com.example.ShlopApp.Catalog.Domain.model.Product;
 import com.example.ShlopApp.Catalog.Domain.model.Variant;
 import org.springframework.stereotype.Component;

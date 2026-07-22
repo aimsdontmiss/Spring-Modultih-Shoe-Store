@@ -1,8 +1,8 @@
-package com.example.ShlopApp.Catalog.Application.internals.interactor.Product;
+package com.example.ShlopApp.Catalog.Application.internals.interactor;
 
 import com.example.ShlopApp.Catalog.Application.api.dto.ProductDto;
 import com.example.ShlopApp.Catalog.Application.api.dto.CatalogResponseMapper;
-import com.example.ShlopApp.Catalog.Application.internals.query.Product.GetProductByIdQuery;
+import com.example.ShlopApp.Catalog.Application.internals.query.GetProductByIdQuery;
 import com.example.ShlopApp.Catalog.Domain.model.Product;
 import com.example.ShlopApp.Catalog.Domain.port.ProductRepoPort;
 import org.springframework.stereotype.Service;

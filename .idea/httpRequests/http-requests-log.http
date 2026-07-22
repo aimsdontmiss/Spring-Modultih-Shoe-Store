@@ -4,92 +4,14 @@ Content-Length: 107
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=ZWEyYzNkYWQtMWZmMy00MjkxLTllY2YtZjVjZWU5ZDM4ZDdk
+Cookie: SESSION=MjI5ODIyMDgtYTJiZi00MGZjLTk0M2QtNGZlMTAzNTcyMjAw
 
 {
-  "cartId": "8b51d624-2745-4fe7-90d5-f0fd0f5ce41f",
-  "ownerId": "85f66bbc-d0a2-3eda-afa5-02e6c6753549"
-}
-
-<> 2026-07-21T135454.200.json
-
-###
-
-POST http://localhost:8080/cart/add
-Content-Type: application/json
-Content-Length: 148
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=ZWEyYzNkYWQtMWZmMy00MjkxLTllY2YtZjVjZWU5ZDM4ZDdk
-
-{
-  "cartId": "8b51d624-2745-4fe7-90d5-f0fd0f5ce41f",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
-}
-
-<> 2026-07-21T135435.200.json
-
-###
-
-POST http://localhost:8080/cart/add
-Content-Type: application/json
-Content-Length: 148
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=ZWEyYzNkYWQtMWZmMy00MjkxLTllY2YtZjVjZWU5ZDM4ZDdk
-
-{
-  "cartId": "8b51d624-2745-4fe7-90d5-f0fd0f5ce41f",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
-}
-
-<> 2026-07-21T135434.200.json
-
-###
-
-POST http://localhost:8080/cart/create
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2026-07-21T135423.200.json
-
-###
-
-POST http://localhost:8080/logout
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=M2NlYWIwMjMtM2Y2Ny00NDJiLWExMWQtMTYzNjgyNWM4NTIy
-content-length: 0
-
-<> 2026-07-21T135420.200.txt
-
-###
-
-POST http://localhost:8080/order/checkout
-Content-Type: application/json
-Content-Length: 107
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=M2NlYWIwMjMtM2Y2Ny00NDJiLWExMWQtMTYzNjgyNWM4NTIy
-
-{
-  "cartId": "d5adec78-395e-44da-b4e6-c868bc0c0629",
+  "cartId": "44f08deb-3413-4687-a513-8766ddbb3bdb",
   "ownerId": "859a7c39-ce76-4c13-a0f5-5c75aea5d17d"
 }
 
-<> 2026-07-21T135321.200.json
+<> 2026-07-22T153358.200.json
 
 ###
 
@@ -98,10 +20,10 @@ Content-Type: application/json
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=M2NlYWIwMjMtM2Y2Ny00NDJiLWExMWQtMTYzNjgyNWM4NTIy
+Cookie: SESSION=MjI5ODIyMDgtYTJiZi00MGZjLTk0M2QtNGZlMTAzNTcyMjAw
 content-length: 0
 
-<> 2026-07-21T135259.200.json
+<> 2026-07-22T153342.200.json
 
 ###
 
@@ -111,14 +33,14 @@ Content-Length: 62
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=M2NlYWIwMjMtM2Y2Ny00NDJiLWExMWQtMTYzNjgyNWM4NTIy
+Cookie: SESSION=MjI5ODIyMDgtYTJiZi00MGZjLTk0M2QtNGZlMTAzNTcyMjAw
 
 {
   "username": "MrShotCaller",
   "password": "password1234"
 }
 
-<> 2026-07-21T135256.200.json
+<> 2026-07-22T153339.200.json
 
 ###
 
@@ -128,14 +50,14 @@ Content-Length: 107
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=M2NlYWIwMjMtM2Y2Ny00NDJiLWExMWQtMTYzNjgyNWM4NTIy
+Cookie: SESSION=MjI5ODIyMDgtYTJiZi00MGZjLTk0M2QtNGZlMTAzNTcyMjAw
 
 {
-  "cartId": "3e8a6e20-d729-4f91-8d93-e7f980d6c0dc",
-  "ownerId": "938ddae8-1464-37d4-b57d-d45ab12d993b"
+  "cartId": "aed0a6cb-510b-4cd6-85a6-5b49baf328c8",
+  "ownerId": "62253b80-21f7-3f4c-b4e8-06fc13c8422b"
 }
 
-<> 2026-07-21T134303.200.json
+<> 2026-07-22T153323.200.json
 
 ###
 
@@ -145,16 +67,16 @@ Content-Length: 148
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=M2NlYWIwMjMtM2Y2Ny00NDJiLWExMWQtMTYzNjgyNWM4NTIy
+Cookie: SESSION=MjI5ODIyMDgtYTJiZi00MGZjLTk0M2QtNGZlMTAzNTcyMjAw
 
 {
-  "cartId": "3e8a6e20-d729-4f91-8d93-e7f980d6c0dc",
+  "cartId": "aed0a6cb-510b-4cd6-85a6-5b49baf328c8",
   "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
   "unitPrice": 29.99,
   "quantity": 1
 }
 
-<> 2026-07-21T134250.200.json
+<> 2026-07-22T153307.200.json
 
 ###
 
@@ -164,16 +86,45 @@ Content-Length: 148
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=M2NlYWIwMjMtM2Y2Ny00NDJiLWExMWQtMTYzNjgyNWM4NTIy
+Cookie: SESSION=MjI5ODIyMDgtYTJiZi00MGZjLTk0M2QtNGZlMTAzNTcyMjAw
 
 {
-  "cartId": "3e8a6e20-d729-4f91-8d93-e7f980d6c0dc",
+  "cartId": "aed0a6cb-510b-4cd6-85a6-5b49baf328c8",
   "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
   "unitPrice": 29.99,
   "quantity": 1
 }
 
-<> 2026-07-21T134246.200.json
+<> 2026-07-22T153303.200.json
+
+###
+
+POST http://localhost:8080/cart/create
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=MDc2MTAwYjMtZWVkMi00ZjYzLWI3ZTItNDI5OTg3MzZhMGIx
+content-length: 0
+
+<> 2026-07-22T153249.200.json
+
+###
+
+POST http://localhost:8080/order/checkout
+Content-Type: application/json
+Content-Length: 107
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=MDc2MTAwYjMtZWVkMi00ZjYzLWI3ZTItNDI5OTg3MzZhMGIx
+
+{
+  "cartId": "7d333ad1-cda8-43f5-aff0-05e2834fd8f0",
+  "ownerId": "bd511bbe-df85-3aa9-bb6b-f74e63c55ea9"
+}
+
+<> 2026-07-21T191939.200.json
 
 ###
 
@@ -183,16 +134,278 @@ Content-Length: 148
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=M2NlYWIwMjMtM2Y2Ny00NDJiLWExMWQtMTYzNjgyNWM4NTIy
+Cookie: SESSION=MDc2MTAwYjMtZWVkMi00ZjYzLWI3ZTItNDI5OTg3MzZhMGIx
 
 {
-  "cartId": "3e8a6e20-d729-4f91-8d93-e7f980d6c0dc",
+  "cartId": "7d333ad1-cda8-43f5-aff0-05e2834fd8f0",
   "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
   "unitPrice": 29.99,
   "quantity": 1
 }
 
-<> 2026-07-21T134243.200.json
+<> 2026-07-21T191922.200.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 147
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=MDc2MTAwYjMtZWVkMi00ZjYzLWI3ZTItNDI5OTg3MzZhMGIx
+
+{
+  "cartId": "7d333ad1-cda8-43f5-aff0-05e2834fd8f0",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 9.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T191904.200.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=MDc2MTAwYjMtZWVkMi00ZjYzLWI3ZTItNDI5OTg3MzZhMGIx
+
+{
+  "cartId": "7d333ad1-cda8-43f5-aff0-05e2834fd8f0",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 29.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T191855.200.json
+
+###
+
+POST http://localhost:8080/cart/create
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=MDc2MTAwYjMtZWVkMi00ZjYzLWI3ZTItNDI5OTg3MzZhMGIx
+content-length: 0
+
+<> 2026-07-21T191851.200.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=MDc2MTAwYjMtZWVkMi00ZjYzLWI3ZTItNDI5OTg3MzZhMGIx
+
+{
+  "cartId": "7d333ad1-cda8-43f5-aff0-05e2834fd8f0",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 29.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T191739.500.json
+
+###
+
+POST http://localhost:8080/cart/create
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=MDc2MTAwYjMtZWVkMi00ZjYzLWI3ZTItNDI5OTg3MzZhMGIx
+content-length: 0
+
+<> 2026-07-21T191732.200.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=MDc2MTAwYjMtZWVkMi00ZjYzLWI3ZTItNDI5OTg3MzZhMGIx
+
+{
+  "cartId": "7d333ad1-cda8-43f5-aff0-05e2834fd8f0",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 29.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T191706.500.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=MDc2MTAwYjMtZWVkMi00ZjYzLWI3ZTItNDI5OTg3MzZhMGIx
+
+{
+  "cartId": "7d333ad1-cda8-43f5-aff0-05e2834fd8f0",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 29.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T191656.500.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 147
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=MDc2MTAwYjMtZWVkMi00ZjYzLWI3ZTItNDI5OTg3MzZhMGIx
+
+{
+  "cartId": "7d333ad1-cda8-43f5-aff0-05e2834fd8f0",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 9.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T191635.500.json
+
+###
+
+POST http://localhost:8080/cart/create
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=ODhlZGU4YWMtZDU0Zi00NzVkLThiNTMtOGM0YTA5NTcyNzk0
+content-length: 0
+
+<> 2026-07-21T191613.200.json
+
+###
+
+POST http://localhost:8080/order/checkout
+Content-Type: application/json
+Content-Length: 107
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=ODhlZGU4YWMtZDU0Zi00NzVkLThiNTMtOGM0YTA5NTcyNzk0
+
+{
+  "cartId": "5094096f-6b62-4209-8327-38371e811ed0",
+  "ownerId": "49fc19ce-bc0b-3a75-abc3-dba81f91deac"
+}
+
+<> 2026-07-21T173909.200.json
+
+###
+
+POST http://localhost:8080/cart/remove
+Content-Type: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=ODhlZGU4YWMtZDU0Zi00NzVkLThiNTMtOGM0YTA5NTcyNzk0
+
+{
+    "cartId": "5094096f-6b62-4209-8327-38371e811ed0",
+    "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+    "unitPrice": 29.99,
+    "quantity": 1
+}
+
+<> 2026-07-21T173838.200.json
+
+###
+
+POST http://localhost:8080/cart/remove
+Content-Type: application/json
+Content-Length: 156
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=ODhlZGU4YWMtZDU0Zi00NzVkLThiNTMtOGM0YTA5NTcyNzk0
+
+{
+    "cartId": "5094096f-6b62-4209-8327-38371e811ed0",
+    "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+    "unitPrice": 29.99,
+    "quantity": 1
+}
+
+<> 2026-07-21T173837.200.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=ODhlZGU4YWMtZDU0Zi00NzVkLThiNTMtOGM0YTA5NTcyNzk0
+
+{
+  "cartId": "5094096f-6b62-4209-8327-38371e811ed0",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 29.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T173809.200.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=ODhlZGU4YWMtZDU0Zi00NzVkLThiNTMtOGM0YTA5NTcyNzk0
+
+{
+  "cartId": "5094096f-6b62-4209-8327-38371e811ed0",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 29.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T173807.200.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=ODhlZGU4YWMtZDU0Zi00NzVkLThiNTMtOGM0YTA5NTcyNzk0
+
+{
+  "cartId": "5094096f-6b62-4209-8327-38371e811ed0",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 29.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T173802.200.json
 
 ###
 
@@ -203,7 +416,7 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
-<> 2026-07-21T134209.200.json
+<> 2026-07-21T173748.200.json
 
 ###
 
@@ -212,10 +425,10 @@ Content-Type: application/json
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=YmY5NDI0ZWQtMjA4ZS00NWJlLTg2ZWItMjg5MzI0MWM5NGU3
+Cookie: SESSION=YWY0NWQwZTQtOTFlNy00YmVlLWFlMGItMzk4ZTkwMTlmMWUw
 content-length: 0
 
-<> 2026-07-21T134205.200.txt
+<> 2026-07-21T173732.200.txt
 
 ###
 
@@ -225,92 +438,90 @@ Content-Length: 107
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=YmY5NDI0ZWQtMjA4ZS00NWJlLTg2ZWItMjg5MzI0MWM5NGU3
+Cookie: SESSION=YWY0NWQwZTQtOTFlNy00YmVlLWFlMGItMzk4ZTkwMTlmMWUw
 
 {
-  "cartId": "620ea20b-dfc2-4d3d-82ac-dabd569d8398",
-  "ownerId": "4b941d2d-fc92-3b8c-864b-5f980edf52ce"
-}
-
-<> 2026-07-21T131859.500.json
-
-###
-
-POST http://localhost:8080/cart/add
-Content-Type: application/json
-Content-Length: 148
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=YmY5NDI0ZWQtMjA4ZS00NWJlLTg2ZWItMjg5MzI0MWM5NGU3
-
-{
-  "cartId": "620ea20b-dfc2-4d3d-82ac-dabd569d8398",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
-}
-
-<> 2026-07-21T131837.200.json
-
-###
-
-POST http://localhost:8080/cart/add
-Content-Type: application/json
-Content-Length: 148
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=YmY5NDI0ZWQtMjA4ZS00NWJlLTg2ZWItMjg5MzI0MWM5NGU3
-
-{
-  "cartId": "620ea20b-dfc2-4d3d-82ac-dabd569d8398",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
-}
-
-<> 2026-07-21T131835.200.json
-
-###
-
-POST http://localhost:8080/cart/create
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2026-07-21T131823.200.json
-
-###
-
-POST http://localhost:8080/logout
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=YjMyMDk4Y2QtZDY4MC00YzM2LTlhYTMtNDY4OWY0YWUzOTdh
-content-length: 0
-
-<> 2026-07-21T131820.200.txt
-
-###
-
-POST http://localhost:8080/order/checkout
-Content-Type: application/json
-Content-Length: 107
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=YjMyMDk4Y2QtZDY4MC00YzM2LTlhYTMtNDY4OWY0YWUzOTdh
-
-{
-  "cartId": "d5adec78-395e-44da-b4e6-c868bc0c0629",
+  "cartId": "44f08deb-3413-4687-a513-8766ddbb3bdb",
   "ownerId": "859a7c39-ce76-4c13-a0f5-5c75aea5d17d"
 }
 
-<> 2026-07-21T131748.200.json
+<> 2026-07-21T173648.200.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=YWY0NWQwZTQtOTFlNy00YmVlLWFlMGItMzk4ZTkwMTlmMWUw
+
+{
+  "cartId": "44f08deb-3413-4687-a513-8766ddbb3bdb",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 29.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T173620.200.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=YWY0NWQwZTQtOTFlNy00YmVlLWFlMGItMzk4ZTkwMTlmMWUw
+
+{
+  "cartId": "44f08deb-3413-4687-a513-8766ddbb3bdb",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 29.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T173619.200.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=YWY0NWQwZTQtOTFlNy00YmVlLWFlMGItMzk4ZTkwMTlmMWUw
+
+{
+  "cartId": "44f08deb-3413-4687-a513-8766ddbb3bdb",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 29.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T173616.200.json
+
+###
+
+POST http://localhost:8080/cart/add
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=YWY0NWQwZTQtOTFlNy00YmVlLWFlMGItMzk4ZTkwMTlmMWUw
+
+{
+  "cartId": "44f08deb-3413-4687-a513-8766ddbb3bdb",
+  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
+  "unitPrice": 29.99,
+  "quantity": 1
+}
+
+<> 2026-07-21T173606.200.json
 
 ###
 
@@ -319,10 +530,10 @@ Content-Type: application/json
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=YjMyMDk4Y2QtZDY4MC00YzM2LTlhYTMtNDY4OWY0YWUzOTdh
+Cookie: SESSION=YWY0NWQwZTQtOTFlNy00YmVlLWFlMGItMzk4ZTkwMTlmMWUw
 content-length: 0
 
-<> 2026-07-21T131732.200.json
+<> 2026-07-21T173551.200.json
 
 ###
 
@@ -332,14 +543,14 @@ Content-Length: 62
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=OWUwZjAwN2YtY2Y3OS00ODgyLTk5MzQtNzI3MWYyODEwNTdi
+Cookie: SESSION=NDA4YjFhNzAtNTUzZC00ZTAyLWJmMTktMmQzMWMwYmM4Yzc4
 
 {
   "username": "MrShotCaller",
   "password": "password1234"
 }
 
-<> 2026-07-21T131726.200.json
+<> 2026-07-21T173547.200.json
 
 ###
 
@@ -349,60 +560,31 @@ Content-Length: 107
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=OWUwZjAwN2YtY2Y3OS00ODgyLTk5MzQtNzI3MWYyODEwNTdi
+Cookie: SESSION=NDA4YjFhNzAtNTUzZC00ZTAyLWJmMTktMmQzMWMwYmM4Yzc4
 
 {
-  "cartId": "4cfebc59-cde7-4ede-ac9c-6938a83d0719",
-  "ownerId": "4ffd5d77-b7cc-44da-9e98-42d5d0ca7028"
+  "cartId": "d5adec78-395e-44da-b4e6-c868bc0c0629",
+  "ownerId": "859a7c39-ce76-4c13-a0f5-5c75aea5d17d"
 }
 
-<> 2026-07-20T203825.200.json
-
-###
-
-POST http://localhost:8080/order/checkout
-Content-Type: application/json
-Content-Length: 107
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=OWUwZjAwN2YtY2Y3OS00ODgyLTk5MzQtNzI3MWYyODEwNTdi
-
-{
-  "cartId": "4cfebc59-cde7-4ede-ac9c-6938a83d0719",
-  "ownerId": "4ffd5d77-b7cc-44da-9e98-42d5d0ca7028"
-}
-
-<> 2026-07-20T203730.200.json
-
-###
-
-POST http://localhost:8080/cart/create
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=OWUwZjAwN2YtY2Y3OS00ODgyLTk5MzQtNzI3MWYyODEwNTdi
-content-length: 0
-
-<> 2026-07-20T203709.200.json
+<> 2026-07-21T142111.200.json
 
 ###
 
 POST http://localhost:8080/auth/login
 Content-Type: application/json
-Content-Length: 59
+Content-Length: 62
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=OWUwZjAwN2YtY2Y3OS00ODgyLTk5MzQtNzI3MWYyODEwNTdi
+Cookie: SESSION=NDA4YjFhNzAtNTUzZC00ZTAyLWJmMTktMmQzMWMwYmM4Yzc4
 
 {
-  "username": "MrShakeDaRoom",
-  "password": "password"
+  "username": "MrShotCaller",
+  "password": "password1234"
 }
 
-<> 2026-07-20T203705.200.json
+<> 2026-07-21T142110.200.json
 
 ###
 
@@ -412,14 +594,14 @@ Content-Length: 107
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=OWUwZjAwN2YtY2Y3OS00ODgyLTk5MzQtNzI3MWYyODEwNTdi
+Cookie: SESSION=NDA4YjFhNzAtNTUzZC00ZTAyLWJmMTktMmQzMWMwYmM4Yzc4
 
 {
-  "cartId": "6d33f034-9dc8-4871-b55f-66c3ca11ad8a",
-  "ownerId": "68ed460a-46f4-3e05-b17a-3125bd4b8888"
+  "cartId": "d5adec78-395e-44da-b4e6-c868bc0c0629",
+  "ownerId": "859a7c39-ce76-4c13-a0f5-5c75aea5d17d"
 }
 
-<> 2026-07-20T202905.200.json
+<> 2026-07-21T142100.200.json
 
 ###
 
@@ -428,27 +610,10 @@ Content-Type: application/json
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=OWUwZjAwN2YtY2Y3OS00ODgyLTk5MzQtNzI3MWYyODEwNTdi
+Cookie: SESSION=NDA4YjFhNzAtNTUzZC00ZTAyLWJmMTktMmQzMWMwYmM4Yzc4
 content-length: 0
 
-<> 2026-07-20T202851.200.json
-
-###
-
-POST http://localhost:8080/order/checkout
-Content-Type: application/json
-Content-Length: 107
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=OWUwZjAwN2YtY2Y3OS00ODgyLTk5MzQtNzI3MWYyODEwNTdi
-
-{
-  "cartId": "6d33f034-9dc8-4871-b55f-66c3ca11ad8a",
-  "ownerId": "68ed460a-46f4-3e05-b17a-3125bd4b8888"
-}
-
-<> 2026-07-20T202708.200.json
+<> 2026-07-21T142058.200.json
 
 ###
 
@@ -458,132 +623,66 @@ Content-Length: 148
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=OWUwZjAwN2YtY2Y3OS00ODgyLTk5MzQtNzI3MWYyODEwNTdi
+Cookie: SESSION=NDA4YjFhNzAtNTUzZC00ZTAyLWJmMTktMmQzMWMwYmM4Yzc4
 
 {
-  "cartId": "6d33f034-9dc8-4871-b55f-66c3ca11ad8a",
+  "cartId": "8b51d624-2745-4fe7-90d5-f0fd0f5ce41f",
   "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
   "unitPrice": 29.99,
   "quantity": 1
 }
 
-<> 2026-07-20T202653-1.200.json
+<> 2026-07-21T142056.500.json
 
 ###
 
-POST http://localhost:8080/cart/add
+POST http://localhost:8080/auth/login
 Content-Type: application/json
-Content-Length: 148
+Content-Length: 62
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=OWUwZjAwN2YtY2Y3OS00ODgyLTk5MzQtNzI3MWYyODEwNTdi
+Cookie: SESSION=NDA4YjFhNzAtNTUzZC00ZTAyLWJmMTktMmQzMWMwYmM4Yzc4
 
 {
-  "cartId": "6d33f034-9dc8-4871-b55f-66c3ca11ad8a",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
+  "username": "MrShotCaller",
+  "password": "password1234"
 }
 
-<> 2026-07-20T202653.200.json
+<> 2026-07-21T142054.200.json
 
 ###
 
-POST http://localhost:8080/cart/add
+POST http://localhost:8080/auth/login
 Content-Type: application/json
-Content-Length: 148
+Content-Length: 62
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=OWUwZjAwN2YtY2Y3OS00ODgyLTk5MzQtNzI3MWYyODEwNTdi
+Cookie: SESSION=NDA4YjFhNzAtNTUzZC00ZTAyLWJmMTktMmQzMWMwYmM4Yzc4
 
 {
-  "cartId": "6d33f034-9dc8-4871-b55f-66c3ca11ad8a",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
+  "username": "MrShotCaller",
+  "password": "password1234"
 }
 
-<> 2026-07-20T202652.200.json
+<> 2026-07-21T142052.200.json
 
 ###
 
-POST http://localhost:8080/cart/create
+POST http://localhost:8080/auth/login
 Content-Type: application/json
+Content-Length: 62
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=YzgwMjhiNDItODA1Yi00OWM0LWIyMTUtYmYyMTNmOGUwNWMx
-content-length: 0
-
-<> 2026-07-20T202624.200.json
-
-###
-
-POST http://localhost:8080/order/checkout
-Content-Type: application/json
-Content-Length: 107
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=YzgwMjhiNDItODA1Yi00OWM0LWIyMTUtYmYyMTNmOGUwNWMx
 
 {
-  "cartId": "de65244c-3c4a-49f6-afb4-cd01e6bde1ff",
-  "ownerId": "d627cce4-d0e1-37a8-adfe-ef3dc8577e83"
+  "username": "MrShotCaller",
+  "password": "password1234"
 }
 
-<> 2026-07-20T162031.200.json
-
-###
-
-POST http://localhost:8080/cart/add
-Content-Type: application/json
-Content-Length: 148
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=YzgwMjhiNDItODA1Yi00OWM0LWIyMTUtYmYyMTNmOGUwNWMx
-
-{
-  "cartId": "de65244c-3c4a-49f6-afb4-cd01e6bde1ff",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
-}
-
-<> 2026-07-20T162017.200.json
-
-###
-
-POST http://localhost:8080/cart/add
-Content-Type: application/json
-Content-Length: 148
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=YzgwMjhiNDItODA1Yi00OWM0LWIyMTUtYmYyMTNmOGUwNWMx
-
-{
-  "cartId": "de65244c-3c4a-49f6-afb4-cd01e6bde1ff",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
-}
-
-<> 2026-07-20T162016.200.json
-
-###
-
-POST http://localhost:8080/cart/create
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2026-07-20T162000.200.json
+<> 2026-07-21T142050.200.json
 
 ###
 
@@ -592,10 +691,10 @@ Content-Type: application/json
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=MTYxYTRkNGEtZjZjYi00MTI1LTk1YzktNmVhNjEzMDRlMTM4
+Cookie: SESSION=ZWEyYzNkYWQtMWZmMy00MjkxLTllY2YtZjVjZWU5ZDM4ZDdk
 content-length: 0
 
-<> 2026-07-20T161955.200.txt
+<> 2026-07-21T142047.200.txt
 
 ###
 
@@ -605,121 +704,31 @@ Content-Length: 107
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=MTYxYTRkNGEtZjZjYi00MTI1LTk1YzktNmVhNjEzMDRlMTM4
+Cookie: SESSION=ZWEyYzNkYWQtMWZmMy00MjkxLTllY2YtZjVjZWU5ZDM4ZDdk
 
 {
-  "cartId": "6cc0ee6b-f2dd-4088-95b7-f20a72fa34bc",
-  "ownerId": "b8909a35-2c29-396d-a78b-76635ca56b48"
+  "cartId": "d5adec78-395e-44da-b4e6-c868bc0c0629",
+  "ownerId": "859a7c39-ce76-4c13-a0f5-5c75aea5d17d"
 }
 
-<> 2026-07-20T161154.200.json
-
-###
-
-POST http://localhost:8080/cart/add
-Content-Type: application/json
-Content-Length: 148
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=MTYxYTRkNGEtZjZjYi00MTI1LTk1YzktNmVhNjEzMDRlMTM4
-
-{
-  "cartId": "6cc0ee6b-f2dd-4088-95b7-f20a72fa34bc",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
-}
-
-<> 2026-07-20T161137.200.json
-
-###
-
-POST http://localhost:8080/cart/add
-Content-Type: application/json
-Content-Length: 148
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=MTYxYTRkNGEtZjZjYi00MTI1LTk1YzktNmVhNjEzMDRlMTM4
-
-{
-  "cartId": "6cc0ee6b-f2dd-4088-95b7-f20a72fa34bc",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
-}
-
-<> 2026-07-20T161135.200.json
-
-###
-
-POST http://localhost:8080/cart/create
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2026-07-20T161118.200.json
-
-###
-
-POST http://localhost:8080/logout
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=ZWRiYjcxYjMtYjQwOS00MjJiLTkwMmMtYjcxNWQ0ZTZiODYx
-content-length: 0
-
-<> 2026-07-20T161115.200.txt
-
-###
-
-POST http://localhost:8080/order/checkout
-Content-Type: application/json
-Content-Length: 107
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=ZWRiYjcxYjMtYjQwOS00MjJiLTkwMmMtYjcxNWQ0ZTZiODYx
-
-{
-  "cartId": "4cfebc59-cde7-4ede-ac9c-6938a83d0719",
-  "ownerId": "4ffd5d77-b7cc-44da-9e98-42d5d0ca7028"
-}
-
-<> 2026-07-20T160856.200.json
-
-###
-
-POST http://localhost:8080/cart/create
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-Cookie: SESSION=ZWRiYjcxYjMtYjQwOS00MjJiLTkwMmMtYjcxNWQ0ZTZiODYx
-content-length: 0
-
-<> 2026-07-20T160842.200.json
+<> 2026-07-21T142046.200.json
 
 ###
 
 POST http://localhost:8080/auth/login
 Content-Type: application/json
-Content-Length: 59
+Content-Length: 62
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=ZWRiYjcxYjMtYjQwOS00MjJiLTkwMmMtYjcxNWQ0ZTZiODYx
+Cookie: SESSION=ZWEyYzNkYWQtMWZmMy00MjkxLTllY2YtZjVjZWU5ZDM4ZDdk
 
 {
-  "username": "MrShakeDaRoom",
-  "password": "password"
+  "username": "MrShotCaller",
+  "password": "password1234"
 }
 
-<> 2026-07-20T160838.200.json
+<> 2026-07-21T142044.200.json
 
 ###
 
@@ -729,71 +738,89 @@ Content-Length: 107
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=ZWRiYjcxYjMtYjQwOS00MjJiLTkwMmMtYjcxNWQ0ZTZiODYx
+Cookie: SESSION=ZWEyYzNkYWQtMWZmMy00MjkxLTllY2YtZjVjZWU5ZDM4ZDdk
 
 {
-  "cartId": "a5beac2d-9649-4bdc-a4b6-eebfce5a20a9",
-  "ownerId": "fd83cba2-e0c2-33e0-ab52-8df29e59f454"
+  "cartId": "d5adec78-395e-44da-b4e6-c868bc0c0629",
+  "ownerId": "859a7c39-ce76-4c13-a0f5-5c75aea5d17d"
 }
 
-<> 2026-07-20T160627.200.json
+<> 2026-07-21T142039.200.json
 
 ###
 
-POST http://localhost:8080/cart/add
+POST http://localhost:8080/order/checkout
 Content-Type: application/json
-Content-Length: 148
+Content-Length: 107
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=ZWRiYjcxYjMtYjQwOS00MjJiLTkwMmMtYjcxNWQ0ZTZiODYx
+Cookie: SESSION=ZWEyYzNkYWQtMWZmMy00MjkxLTllY2YtZjVjZWU5ZDM4ZDdk
 
 {
-  "cartId": "a5beac2d-9649-4bdc-a4b6-eebfce5a20a9",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
+  "cartId": "d5adec78-395e-44da-b4e6-c868bc0c0629",
+  "ownerId": "859a7c39-ce76-4c13-a0f5-5c75aea5d17d"
 }
 
-<> 2026-07-20T160611.200.json
+<> 2026-07-21T141657.200.json
 
 ###
 
-POST http://localhost:8080/cart/add
+POST http://localhost:8080/cart/create
 Content-Type: application/json
-Content-Length: 148
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=ZWRiYjcxYjMtYjQwOS00MjJiLTkwMmMtYjcxNWQ0ZTZiODYx
+Cookie: SESSION=ZWEyYzNkYWQtMWZmMy00MjkxLTllY2YtZjVjZWU5ZDM4ZDdk
+content-length: 0
 
-{
-  "cartId": "a5beac2d-9649-4bdc-a4b6-eebfce5a20a9",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
-}
-
-<> 2026-07-20T160610.200.json
+<> 2026-07-21T141643.200.json
 
 ###
 
-POST http://localhost:8080/cart/add
+POST http://localhost:8080/auth/login
 Content-Type: application/json
-Content-Length: 148
+Content-Length: 62
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
-Cookie: SESSION=ZWRiYjcxYjMtYjQwOS00MjJiLTkwMmMtYjcxNWQ0ZTZiODYx
+Cookie: SESSION=ZWEyYzNkYWQtMWZmMy00MjkxLTllY2YtZjVjZWU5ZDM4ZDdk
 
 {
-  "cartId": "a5beac2d-9649-4bdc-a4b6-eebfce5a20a9",
-  "variantId": "89d2e1ef-5b36-42ae-9ff3-02510276dd82",
-  "unitPrice": 29.99,
-  "quantity": 1
+  "username": "MrShotCaller",
+  "password": "password1234"
 }
 
-<> 2026-07-20T160607-1.200.json
+<> 2026-07-21T141640.200.json
+
+###
+
+POST http://localhost:8080/order/checkout
+Content-Type: application/json
+Content-Length: 107
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=ZWEyYzNkYWQtMWZmMy00MjkxLTllY2YtZjVjZWU5ZDM4ZDdk
+
+{
+  "cartId": "d5adec78-395e-44da-b4e6-c868bc0c0629",
+  "ownerId": "859a7c39-ce76-4c13-a0f5-5c75aea5d17d"
+}
+
+<> 2026-07-21T141608.200.json
+
+###
+
+POST http://localhost:8080/cart/create
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: SESSION=ZWEyYzNkYWQtMWZmMy00MjkxLTllY2YtZjVjZWU5ZDM4ZDdk
+content-length: 0
+
+<> 2026-07-21T141552.200.json
 
 ###
 

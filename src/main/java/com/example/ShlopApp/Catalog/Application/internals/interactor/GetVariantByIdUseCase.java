@@ -1,8 +1,8 @@
-package com.example.ShlopApp.Catalog.Application.internals.interactor.Variant;
+package com.example.ShlopApp.Catalog.Application.internals.interactor;
 
 import com.example.ShlopApp.Catalog.Application.api.dto.CatalogResponseMapper;
-import com.example.ShlopApp.Catalog.Application.api.dto.VariantDto;
-import com.example.ShlopApp.Catalog.Application.internals.query.Variant.GetVariantByIdQuery;
+import com.example.ShlopApp.Catalog.Application.api.VariantDto;
+import com.example.ShlopApp.Catalog.Application.internals.query.GetVariantByIdQuery;
 import com.example.ShlopApp.Catalog.Domain.model.Variant;
 import com.example.ShlopApp.Catalog.Infrastructure.adapter.VariantRepoAdapter;
 import org.springframework.stereotype.Service;

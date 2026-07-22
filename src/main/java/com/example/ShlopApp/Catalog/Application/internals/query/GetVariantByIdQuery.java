@@ -1,4 +1,4 @@
-package com.example.ShlopApp.Catalog.Application.internals.query.Variant;
+package com.example.ShlopApp.Catalog.Application.internals.query;
 
 import java.util.UUID;
 

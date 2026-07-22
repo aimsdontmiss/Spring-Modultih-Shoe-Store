@@ -1,5 +1,8 @@
 package com.example.ShlopApp.Cart.Application.api;
 
+import com.example.ShlopApp.Cart.Application.api.dto.CartAccessContext;
+import com.example.ShlopApp.Cart.Application.api.dto.CustomerAccess;
+import com.example.ShlopApp.Cart.Application.api.dto.GuestAccess;
 import com.example.ShlopApp.Cart.Domain.model.Cart;
 import com.example.ShlopApp.Cart.Domain.model.ValueObjects.CartOwner;
 import com.example.ShlopApp.Cart.Domain.model.ValueObjects.CustomerOwner;
@@ -8,7 +11,6 @@ import com.example.ShlopApp.Cart.Domain.model.ValueObjects.SessionOwner;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.UUID;
-import java.util.stream.Stream;
 
 public record CartSnapshot(
         UUID cartId,

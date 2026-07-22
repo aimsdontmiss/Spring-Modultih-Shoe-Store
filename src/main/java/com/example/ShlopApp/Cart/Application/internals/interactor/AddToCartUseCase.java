@@ -5,20 +5,17 @@ import com.example.ShlopApp.Cart.Domain.exception.UnauthorizedCartAccessExceptio
 import com.example.ShlopApp.Cart.Domain.model.Cart;
 import com.example.ShlopApp.Cart.Domain.model.ValueObjects.CartOwner;
 import com.example.ShlopApp.Cart.Domain.port.CartRepoPort;
+import com.example.ShlopApp.Catalog.Application.api.CatalogFacade;
+import com.example.ShlopApp.Catalog.Application.api.VariantDto;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
+@RequiredArgsConstructor
 public class AddToCartUseCase {
-    private final CartRepoPort repository;
+    private final CartRepoPort cartRepo;
     private  final CartOwnerResolver resolver;
 
-    public AddToCartUseCase(
-            CartRepoPort repository,
-            CartOwnerResolver resolver
-    ) {
-        this.repository = repository;
-        this.resolver = resolver;
-    }
 
     public Cart execute(AddToCartCommand command) {
 
@@ -26,17 +23,13 @@ public class AddToCartUseCase {
 
         System.out.println(owner);
 
-        Cart cart = repository.findById(command.cartId())
+        Cart cart = cartRepo.findById(command.cartId())
                 .orElseThrow();
 
-
-        System.out.println("CART OWNER: " + cart.getOwnerId());
-        System.out.println("REQUEST OWNER: " + owner);
-        System.out.println("EQUALS: " + cart.getOwnerId().equals(owner));
-
-//        if (!cart.belongsTo(owner)) {
-//            throw new UnauthorizedCartAccessException();
-//        }
+//
+//        System.out.println("CART OWNER: " + cart.getOwnerId());
+//        System.out.println("REQUEST OWNER: " + owner);
+//        System.out.println("EQUALS: " + cart.getOwnerId().equals(owner));
 
         if (!cart.getOwnerId().getOwnerId()
                 .equals(owner.getOwnerId())) {
@@ -50,7 +43,7 @@ public class AddToCartUseCase {
         );
         cart.touch();
 
-        repository.save(cart);
+        cartRepo.save(cart);
         return cart;
     }
 }

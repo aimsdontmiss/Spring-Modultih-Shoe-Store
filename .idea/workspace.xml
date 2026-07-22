@@ -5,60 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8a81131-f90c-45bc-a8cc-cf1b4328c0cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132425.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132432.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132437.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132444.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132448.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132452.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132455.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132459.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132504.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132510.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132515.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132530.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T132533.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154349.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154353.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154355.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154405.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154419.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154426.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154439.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154455.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154501.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154511.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154523.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154700.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154705.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154714.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154932.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154937.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154940.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T154944.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T172448.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T172451.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T172548.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T173525.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T173528.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T173606.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T173847.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T173851.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-07-18T173929.200.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/api/CustomerAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/api/CustomerAccess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/api/GuestAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/api/GuestAccess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/internals/interactor/GetCartUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/internals/interactor/GetCartUseCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Infrastructure/adapter/SpringSecurityCartOwnerResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Infrastructure/adapter/SpringSecurityCartOwnerResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/internals/interactor/AddToCartUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Cart/Application/internals/interactor/AddToCartUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Catalog/Application/api/dto/CatalogResponseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Catalog/Application/api/dto/CatalogResponseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Catalog/Application/internals/interactor/Product/GetAllProductUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Catalog/Application/internals/interactor/Product/GetProductByIdUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Catalog/Application/internals/interactor/Variant/GetAllVariantsUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Catalog/Application/internals/interactor/Variant/GetVariantByIdUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Catalog/Presentation/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Catalog/Presentation/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Catalog/Presentation/VariantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Catalog/Presentation/VariantController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Application/internals/Order/interactor/CheckoutUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Application/internals/Order/interactor/CheckoutUseCase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Domain/Order/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Domain/Order/model/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Infrastructure/persistence/OrderEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Infrastructure/persistence/OrderEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Infrastructure/persistence/OrderPersistenceMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Infrastructure/persistence/OrderPersistenceMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Presentation/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Commerce/Presentation/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Identity/Application/internals/interactor/IdentityFacadeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ShlopApp/Identity/Application/internals/interactor/IdentityFacadeImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="204" />
+    <option name="cachedIndexableFilesCount" value="209" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -75,10 +35,11 @@
         <option value="Spring REST Controller" />
         <option value="Exception" />
         <option value="Spring Repository" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Enum" />
         <option value="package-info" />
         <option value="Class" />
-        <option value="Record" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -135,8 +96,8 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;700&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;699&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;892&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;891&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -174,11 +135,9 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <map>
-              <entry key="ShlopAppApplication | #11" value="STOPPED" />
               <entry key="ShlopAppApplication | #12" value="STOPPED" />
               <entry key="ShlopAppApplication | #2" value="STOPPED" />
               <entry key="ShlopAppApplication | #3" value="STOPPED" />
-              <entry key="ShlopAppApplication | #8" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -198,7 +157,7 @@
     <configuration name="ShlopAppApplication | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShlopAppApplication.http" executionIdentifier="#3" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="ShlopAppApplication | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShlopAppApplication.http" executionIdentifier="#8" index="8" runType="Run single request">
+    <configuration name="ShlopAppApplication | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShlopAppApplication.http" executionIdentifier="#4" index="4" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="ShlopAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -215,7 +174,7 @@
         <item itemvalue="HTTP Request.ShlopAppApplication | #2" />
         <item itemvalue="HTTP Request.ShlopAppApplication | #11" />
         <item itemvalue="HTTP Request.ShlopAppApplication | #3" />
-        <item itemvalue="HTTP Request.ShlopAppApplication | #8" />
+        <item itemvalue="HTTP Request.ShlopAppApplication | #4" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +196,7 @@
       <workItem from="1784395402639" duration="5915000" />
       <workItem from="1784402028811" duration="15702000" />
       <workItem from="1784490352262" duration="9004000" />
-      <workItem from="1784574010159" duration="12716000" />
+      <workItem from="1784574010159" duration="22840000" />
     </task>
     <servers />
   </component>

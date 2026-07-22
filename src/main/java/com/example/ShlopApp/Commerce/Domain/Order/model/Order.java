@@ -3,6 +3,7 @@ package com.example.ShlopApp.Commerce.Domain.Order.model;
 import com.example.ShlopApp.Commerce.Domain.Order.model.ValueObjects.OwnerId;
 import com.example.ShlopApp.Commerce.Domain.Order.model.ValueObjects.OrderId;
 import com.example.ShlopApp.Commerce.Domain.Order.model.ValueObjects.OrderStatus;
+import com.example.ShlopApp.Commerce.Domain.Payment.model.ValueObjects.PaymentStatus;
 import lombok.Getter;
 
 import java.math.BigDecimal;
@@ -15,8 +16,9 @@ public class Order {
     private OrderId orderId;
     private final OwnerId ownerId;
     private final List<OrderLine> lineItems;
-    private OrderStatus status;
+    private OrderStatus orderStatus;
     private final Instant createdAt;
+    private Instant completedAt;
 
     public Order(
             OwnerId ownerId,
@@ -25,7 +27,7 @@ public class Order {
     ) {
         this.ownerId = ownerId;
         this.lineItems = new ArrayList<>(lineItems);
-        this.status = orderStatus;
+        this.orderStatus = orderStatus;
         this.createdAt = Instant.now();
     }
 
@@ -40,13 +42,17 @@ public class Order {
         this.orderId = orderId;
         this.ownerId = ownerId;
         this.lineItems = new ArrayList<>();
-        this.status = orderStatus;
+        this.orderStatus = orderStatus;
         this.createdAt = createdAt;
     }
 
 
-    public void changeStatus(OrderStatus status) {
-        this.status = status;
+    public List<OrderLine> getLineItems() {
+        return List.copyOf(lineItems);
+    }
+
+    public void changeOrderStatus(OrderStatus status) {
+        this.orderStatus = status;
     }
 
     public BigDecimal getTotal() {
@@ -63,18 +69,16 @@ public class Order {
         this.lineItems.remove(lineItem);
     }
 
-    public List<OrderLine> getLineItems() {
-        return List.copyOf(lineItems);
-    }
-
-
-
     public void assignId(OrderId orderId) {
         if (this.orderId != null) {
             throw new IllegalStateException("Order already has an ID");
         }
 
         this.orderId = orderId;
+    }
+
+    public void markAsCompleted() {
+        this.orderStatus = OrderStatus.COMPLETED;
     }
 
     public static Order create(
@@ -88,6 +92,7 @@ public class Order {
         );
     }
 
+
     // For debugging purposes
     @Override
     public String toString() {
@@ -95,7 +100,7 @@ public class Order {
                 "orderId=" + orderId +
                 ", ownerId=" + ownerId +
                 ", lineItems=" + lineItems +
-                ", status=" + status +
+                ", orderStatus=" + orderStatus +
                 ", createdAt=" + createdAt +
                 '}';
     }

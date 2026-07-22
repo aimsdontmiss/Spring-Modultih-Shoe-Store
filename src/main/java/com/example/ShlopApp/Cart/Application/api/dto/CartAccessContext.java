@@ -1,7 +1,5 @@
-package com.example.ShlopApp.Cart.Application.api;
+package com.example.ShlopApp.Cart.Application.api.dto;
 
-
-import java.util.UUID;
 
 public sealed interface CartAccessContext
         permits CustomerAccess, GuestAccess {

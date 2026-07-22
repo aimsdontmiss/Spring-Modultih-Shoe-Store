@@ -13,7 +13,7 @@ public class OrderResponseMapper {
                         .toList()
                 ,
                 order.getTotal(),
-                order.getStatus(),
+                order.getOrderStatus(),
                 order.getCreatedAt()
         );
     }

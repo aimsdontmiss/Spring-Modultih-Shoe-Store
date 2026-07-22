@@ -1,4 +1,4 @@
-package com.example.ShlopApp.Catalog.Application.internals.interactor.Product;
+package com.example.ShlopApp.Catalog.Application.internals.interactor;
 
 import com.example.ShlopApp.Catalog.Application.api.dto.ProductDto;
 import com.example.ShlopApp.Catalog.Application.api.dto.CatalogResponseMapper;

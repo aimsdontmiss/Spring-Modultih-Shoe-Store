@@ -1,4 +1,4 @@
-package com.example.ShlopApp.Cart.Application.api;
+package com.example.ShlopApp.Cart.Application.api.dto;
 
 import com.example.ShlopApp.Identity.Application.api.OrderAccess;
 

@@ -1,12 +1,12 @@
 package com.example.ShlopApp.Catalog.Presentation;
 
 import com.example.ShlopApp.Catalog.Application.api.dto.ProductDto;
-import com.example.ShlopApp.Catalog.Application.api.dto.VariantDto;
-import com.example.ShlopApp.Catalog.Application.internals.interactor.Product.GetAllProductUseCase;
-import com.example.ShlopApp.Catalog.Application.internals.interactor.Product.GetProductByIdUseCase;
-import com.example.ShlopApp.Catalog.Application.internals.interactor.Variant.GetAllVariantsUseCase;
-import com.example.ShlopApp.Catalog.Application.internals.query.Product.GetProductByIdQuery;
-import com.example.ShlopApp.Catalog.Application.internals.query.Variant.GetAllVariantsQuery;
+import com.example.ShlopApp.Catalog.Application.api.VariantDto;
+import com.example.ShlopApp.Catalog.Application.internals.interactor.GetAllProductUseCase;
+import com.example.ShlopApp.Catalog.Application.internals.interactor.GetProductByIdUseCase;
+import com.example.ShlopApp.Catalog.Application.internals.interactor.GetAllVariantsUseCase;
+import com.example.ShlopApp.Catalog.Application.internals.query.GetProductByIdQuery;
+import com.example.ShlopApp.Catalog.Application.internals.query.GetAllVariantsQuery;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
